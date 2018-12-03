@@ -1,0 +1,189 @@
+{
+    "name": "Sanguine",
+    "type": "dark",
+
+    "colors": {
+        "activityBar.background": "#3d2020",
+        "activityBar.foreground": "#d8b1b1",
+        "activityBarBadge.background": "#380e0e",
+        "badge.background": "#493d3d",
+        "button.background": "#833",
+        "debugToolBar.background": "#660000",
+        "dropdown.background": "#361818",
+        "editor.background": "#220d0d",
+        "editor.foreground": "#d19494",
+        "editor.hoverHighlightBackground": "#bb848444",
+        "editor.inactiveSelectionBackground": "#413a3a",
+        "editor.lineHighlightBackground": "#3f1414",
+        "editor.selectionBackground": "#61213a",
+        "editor.selectionHighlightBackground": "#fff3ad26",
+        "editorCursor.background": "#ffffff",
+        "editorCursor.foreground": "#ad3838",
+        "editorGroup.border": "#3d2020",
+        "editorGroupHeader.tabsBackground": "#220d0d",
+        "editorHoverWidget.background": "#200c0c",
+        "editorIndentGuide.activeBackground": "#491515",
+        "editorIndentGuide.background": "#3d0f0f",
+        "editorLineNumber.activeForeground": "#ffbbbb88",
+        "editorLineNumber.foreground": "#b66f6f88",
+        "editorLink.activeForeground": "#FFD0AA",
+        "editorSuggestWidget.background": "#300000",
+        "editorSuggestWidget.border": "#220000",
+        "editorWhitespace.foreground": "#c10000",
+        "editorWidget.background": "#300000",
+        "errorForeground": "#ffeaea",
+        "extensionButton.prominentBackground": "#cc3333",
+        "extensionButton.prominentHoverBackground": "#cc333388",
+        "focusBorder": "#ff6666aa",
+        "input.background": "#361818",
+        "input.placeholderForeground": "#d3b4b4",
+        "inputOption.activeBorder": "#8f2323",
+        "inputValidation.infoBackground": "#550000",
+        "inputValidation.infoBorder": "#DB7E58",
+        "list.activeSelectionBackground": "#611331",
+        "list.dropBackground": "#662222",
+        "list.focusBackground": "#611331",
+        "list.highlightForeground": "#ff4444",
+        "list.hoverBackground": "#611331",
+        "list.inactiveFocusBackground": "#ff0000",
+        "list.inactiveSelectionBackground": "#611331",
+        "menu.background": "#3f0b0b",
+        "menu.foreground": "#a36666",
+        "panelTitle.activeForeground": "#e0bcbc",
+        "peekView.border": "#ff000044",
+        "peekViewEditor.background": "#300000",
+        "peekViewResult.background": "#400000",
+        "peekViewTitle.background": "#550000",
+        "pickerGroup.border": "#ff000033",
+        "pickerGroup.foreground": "#cc9999",
+        "progressBar.background": "#5a2020",
+        "selection.background": "#ff777788",
+        "settings.numberInputBackground": "#382020",
+        "settings.textInputBackground": "#2b1515",
+        "sideBar.background": "#2e1818",
+        "sideBar.foreground": "#ebcbcb",
+        "sideBarTitle.foreground": "#e4b8b8",
+        "statusBar.background": "#3d2020",
+        "statusBar.foreground": "#e0bcbc",
+        "statusBar.noFolderBackground": "#420909",
+        "tab.activeBackground": "#470720",
+        "tab.activeForeground": "#e0bcbc",
+        "tab.inactiveBackground": "#300a0a",
+        "titleBar.activeBackground": "#3d2020",
+        "titleBar.activeForeground": "#e0bcbc",
+        "titleBar.inactiveBackground": "#3d2020",
+    },
+
+    "tokenColors": [
+        {
+            "scope": [
+                "emphasis",
+            ],
+            "settings": {
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "scope": [
+                "strong",
+            ],
+            "settings": {
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Comments",
+            "scope": [
+                "comment",
+            ],
+            "settings": {
+                "foreground": "#ec72ce",
+            }
+        },
+        {
+            "name": "Constants",
+            "scope": [
+                "constant",
+                "string",
+            ],
+            "settings": {
+                "foreground": "#df4646",
+            }
+        },
+        {
+            "name": "Keywords",
+            "scope": [
+                "keyword",
+                "storage",
+            ],
+            "settings": {
+                "foreground": "#db8f1d",
+            }
+        },
+        {
+            "name": "Punctuation",
+            "scope": [
+                "constant.language.import-export-all",
+                "keyword.operator.assignment",
+                "keyword.operator.type",
+                "meta.brace",
+                "punctuation.accessor",
+                "punctuation.definition.array",
+                "punctuation.definition.binding-pattern",
+                "punctuation.definition.block",
+                "punctuation.definition.dictionary",
+                "punctuation.definition.parameters",
+                "punctuation.definition.template-expression",
+                "punctuation.definition.typeparameters",
+                "punctuation.separator",
+                "punctuation.terminator",
+                "storage.type.function.arrow",
+            ],
+            "settings": {
+                "foreground": "#b15c5c",
+            }
+        },
+        {
+            "name": "Identifiers",
+            "scope": [
+                "entity.name.variable",
+                "meta.definition.variable.name",
+                "meta.object-literal.key",
+                "support.class.console",
+                "support.type.property-name",
+                "support.variable",
+                "variable",
+            ],
+            "settings": {
+                "foreground": "#d19494"
+            }
+        },
+        {
+            "name": "Function identifiers",
+            "scope": [
+                "entity.name.function",
+                "support.function",
+            ],
+            "settings": {
+                "foreground": "#ffb8b8",
+            }
+        },
+        {
+            "name": "Types",
+            "scope": [
+                "entity.name.class",
+                "entity.name.type",
+                "entity.other.inherited-class",
+                "keyword.operator.expression.typeof",
+                "meta.return-type",
+                "meta.type.cast.expr",
+                "meta.type.new.expr",
+                "support.class",
+                "support.type",
+            ],
+            "settings": {
+                "foreground": "#95ad79",
+            }
+        },
+    ]
+}
