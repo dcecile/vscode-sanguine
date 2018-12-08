@@ -69,6 +69,8 @@
         "tab.activeBackground": "#470720",
         "tab.activeForeground": "#e0bcbc",
         "tab.inactiveBackground": "#300a0a",
+        "terminal.foreground": "#d19494",
+        "terminal.background": "#220d0d",
         "titleBar.activeBackground": "#3d2020",
         "titleBar.activeForeground": "#e0bcbc",
         "titleBar.inactiveBackground": "#3d2020",
